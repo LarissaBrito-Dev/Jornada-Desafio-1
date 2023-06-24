@@ -1,1 +1,55 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  text-align: center;
+  padding-top: 160px;
+  background-image: url(https://i.ibb.co/KyZczzy/image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+  font-family: 'Cinzel';
+}
+
+h1 {
+  color: #151718;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 86px;
+}
+
+h1 span {
+  color: #DB2777;
+}
+
+p {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 72px;
+  color: rgba(44, 46, 47, 0.9);
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  padding: 12px 32px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #151718
+}
+
+a:hover,
+.btn-primary {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color:#DB2777;
+  border-radius: 80px;
+}
 
